@@ -1,0 +1,52 @@
+.m-btn {
+font-weight: bold;
+font-family: MISA Font;
+    display: flex;
+    align-items: center;
+    background-color: #2CA01C;
+    border-radius: 4px;
+    height: 40px;
+    color: #ffffff;
+    padding: 0 24px; /*👉trên dưới, trái phải👈*/
+    text-align: center;
+    border: unset; /*👉bỏ đi boder mặc định👈*/
+    cursor: pointer;
+    min-width: 70px;
+    white-space: nowrap; /*👉cố định kích thước👈*/
+    margin-right: 10px;
+}
+
+.m-btn:hover, .m-btn:focus {
+    background-color: #2fbe8e;
+}
+
+
+.m-btn:active {
+    background-color: #01b075;
+}
+
+/*👉button icon👈*/
+.m-btn .m-btn-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+.m-btn .m-btn-text {
+    padding-right: -8px;
+}
+.btn-refresh {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    width: 21px;
+	height: 23px;
+    background: url(../../assets/img/Sprites.64af8f61.svg);
+    background-position: -425px -201px;
+    background-repeat: no-repeat;
+}
+

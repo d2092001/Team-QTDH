@@ -1,0 +1,18 @@
+.m-checkbox {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+  background-color: white;
+  margin-left: 2px;
+}
+.m-icon-check {
+  display: none;
+  background: url(../../assets/img/Sprites.64af8f61.svg) -899px -316px;
+  width: 11px;
+  height: 8px;
+  position: absolute;
+  top: 5px;
+  right: 3px;
+}

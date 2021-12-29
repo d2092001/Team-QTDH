@@ -1,0 +1,20 @@
+/*👉m-input-error👈*/
+.m-error {
+  border: 1px solid red;
+}
+.m-popup-error {
+  display: inline-block;
+  position: absolute;
+  background-color: black;
+  color: #e5e5f0;
+  z-index: 999;
+  top: 137px;
+  right: 415px;
+  padding: 3px;
+}
+.m-wrap-popup-error{
+  display: none;
+}
+.shown {
+  visibility: visible;
+}

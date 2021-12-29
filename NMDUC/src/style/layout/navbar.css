@@ -1,0 +1,67 @@
+.m-navbar {
+  position: fixed;
+  float: left;
+  width: 178px;
+  height: 100vh;
+  border: 1px solid;
+  box-sizing: border-box;
+  background-color: #393a3d;
+}
+.m-logo-box {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+.m-logo-box .m-toggle {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -424px -86px;
+  width: 16px;
+  height: 16px;
+
+  /* background: url(../img/Sprites.064341bf.svg) no-repeat -424px -86px; */
+  /* background-image: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) -424px -86px; */
+  /* background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1157px -32px; */
+
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; 👉cho icon vừa kích thước hình vuông👈 */
+  color: #fbfbfc;
+  cursor: pointer;
+
+  width: 24px;
+  height: 24px;
+}
+.m-logo-box .m-logo-page {
+  background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: contain; /*👉cho icon vừa kích thước chữ nhật👈*/
+  cursor: pointer;
+  flex: 1; /*👉tự co dãn cho vừa khung👈*/
+
+  margin-left: -14px;
+  /* width: 200px; */
+  height: 35px;
+}
+.m-navbar-box {
+  width: 100%;
+}
+
+.m-menu-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 14px 0 8px;
+  height: 44px;
+}
+.m-menu-item:hover {
+  background-color: #5d5d61;
+}
+.m-menu-item .m-menu-item-icon {
+  margin-right: 10px;
+}
+.m-menu-item .m-menu-item-text {
+  color: #fbfbfc;
+}
+.router-link-active {
+  background: #000;
+}

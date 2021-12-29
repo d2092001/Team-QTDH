@@ -1,0 +1,104 @@
+.m-paging {
+  position: sticky;
+  bottom: 0px;
+  left: 0px;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 56px;
+  width: 100%;
+}
+.m-paging .m-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 50px;
+}
+.m-paging .m-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: auto;
+}
+.m-paging .m-right .m-combobox-header{
+  font-family: MISA Font !important;
+
+}
+.m-paging .m-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+}
+
+.m-prev {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+.m-number {
+  
+  display: flex;
+  flex-shrink: 0;
+
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 24px;
+  padding: 2px;
+}
+/*👉.m-page-number:hover {
+  background-color: #009060;
+ 
+}
+👈*/
+.m-next {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.m-page-number {
+  display: flex;
+  margin:0px 2px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+}
+.m-combo-actions{
+  display: flex;
+  margin: 0 70px;
+}
+
+/*👉cbx👈*/
+.m-right-cbx{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+/* paging được chọn */
+.m-page-number.page-number-active {
+    border: 1px solid #bbb;
+}

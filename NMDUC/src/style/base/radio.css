@@ -1,0 +1,79 @@
+.m-row-radio {
+  display: flex;
+  margin-top: 10px;
+}
+.m-row-radio .m-check {
+  box-sizing: border-box;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61.33px;
+  height: 22px;
+}
+
+.container {
+  font-weight: 1;
+  font-family: MISA Font;
+margin-left: 10px;
+
+  position: relative;
+  cursor: pointer;
+  font-size: 13px;
+  user-select: none;
+
+
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  border: 2px solid #BABEC5;
+  background: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.dot{
+  background: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.checkmark-active{
+  border: 2px solid #2CA01C;
+}
+.dot-active{
+  background: #2CA01C !important;
+}
+.container:hover .checkmark {
+  cursor: pointer;
+}
+
+.checkmark:after {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #000;
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container .checkmark:after {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #000;
+}
+.container input:checked ~ .checkmark {
+  background: #2ca01c;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}

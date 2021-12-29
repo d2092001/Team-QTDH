@@ -1,0 +1,57 @@
+.m-header {
+  min-width: 800px;
+  position: fixed;
+  background-color: white;
+  left: 178px;
+
+  z-index: 999;
+  transition: top .25s;
+
+  font-weight: bold;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  width: calc(100% - 178px);
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+.m-header .m-left {
+  display: flex;
+  align-items: center;
+}
+.m-header .m-left .m-text {
+  width: 142px;
+  height: 100%;
+  padding-left: 24px;
+}
+.m-header .m-left .m-icon.m-icon-setting {
+  width: 24px;
+  height: 24px;
+}
+.m-header .m-right {
+  display: flex;
+  align-items: center;
+  padding-right: 18px;
+}
+.m-header .m-right .m-icon-left {
+  width: 100px;
+  height: 24px;
+  background-color: rgb(44, 138, 167);
+}
+.m-header .m-right .m-text {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  width: 120px;
+  height: 24px;
+}
+.m-header .m-right .m-icon-avatar-default.m-icon {
+  width: 30px;
+  height: 30px;
+}
+.m-header .m-right .m-icon-option {
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,164 @@
+.m-combobox {
+  height: 40px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  min-width: 100px;
+  outline: unset;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.m-combobox:hover {
+  border-color: #e9ebee;
+}
+
+.m-combobox:focus {
+  border-color: #019160;
+}
+
+.mcombobox {
+  display: flex;
+  position: relative;
+}
+
+.mcombobox input:focus ~ button {
+  border-color: #00b074;
+  color: #00b074;
+}
+
+.mcombobox input {
+  padding-right: 56px;
+}
+
+.mcombobox button {
+  width: 39px;
+  height: 38px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  right: 1px;
+  top: 7px;
+  box-sizing: border-box;
+}
+
+.m-combobox-data {
+  display: none;
+  position: absolute;
+  top: calc(100% + 1px);
+  width: 100%;
+  box-shadow: 0 3px 6px;
+  background-color: white;
+
+  z-index: 1;
+}
+
+.mcombobox .m-combobox-item {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.mcombobox .m-combobox-item:hover,
+.m-combobox-item-hover {
+  background-color: #e8e9ec !important;
+  cursor: pointer;
+  color: #68d175;
+}
+
+/*👉cbxv2👈*/
+.mcombobox .v2 {
+  width: 39px;
+  height: 38px;
+  border: 0;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  box-sizing: border-box;
+  /* border-left: 1px solid #bbbbbb; */
+  background-color: rgba(255, 255, 255, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-combobox-button-v2 {
+  background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) -564px -365px;
+  cursor: pointer;
+  width: 10px;
+  height: 5px;
+}
+.m-input-v2 {
+  border: 1px solid #bbbbbb;
+  height: 40px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 209.4px;
+  display: flex;
+  align-items: center;
+}
+.m-combobox-button {
+  width: 39px;
+  height: 38px;
+  border: 0;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  box-sizing: border-box;
+  /* border-left: 1px solid #bbbbbb; */
+  background-color: rgba(255, 255, 255, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.turn:focus {
+  transform: rotate(180deg);
+  transition: transform 0.15s linear;
+}
+.m-combobox-data.turn-top {
+  position: absolute;
+  top: calc(-207% + 1px);
+  width: 100%;
+  box-shadow: 0 0px 6px;
+  background-color: white;
+  z-index: 1;
+}
+.m-combobox-button.turn {
+  right: -2px;
+  top: 1px;
+}
+/*👉.m-combobox-button.turn:focus {
+  background: #dfdfdf;
+}👈*/
+/*👉cbxv3👈*/
+.mcombobox.v3 {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.mcombobox button.v3 {
+  right: 5px;
+  top: -4px;
+}
+.mcombobox.v3 .m-cbx-text {
+  cursor: pointer;
+  font-weight: bold;
+  color: #0075c0;
+  font-family: MISA Font;
+  font-size: 13px;
+  margin-left: 30px;
+}
+
+.m-combobox-button-v3 {
+  background: url(https://actappg1.misacdn.net/img/Sprites.064341bf.svg) -900px -365px;
+  cursor: pointer;
+  width: 10px;
+  height: 5px;
+}
